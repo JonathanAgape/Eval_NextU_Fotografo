@@ -1,0 +1,31 @@
+#cabecera{
+background-color: #5b7989;
+border-radius: 10px 10px 0 0;
+display:flex;
+}
+h1{
+width: 100%;
+color: white;
+text-shadow: 2px 2px 2px #02010a;
+padding:none;
+}
+nav{
+width: 100%;
+padding-left: 15%;
+color: white;
+}
+li {
+list-style: none;
+display: inline; 
+}
+#imagen1{
+	background-color: #82c3a6;
+
+}
+#imagen2{
+	background-color:  #d5c75f;
+}
+#pie{
+	background-color:  #C6d5c5;
+}
+
