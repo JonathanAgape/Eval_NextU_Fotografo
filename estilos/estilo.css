@@ -27,13 +27,6 @@ body{
 	padding-left: 20px;
 	
 }
-.Inicio{
-	width: 80px;
-	height: 100px;
-	padding: 10px;
-	text-decoration: none;
-	align-items: center;
-}
 .Paisajes{
 	width: 80px;
 	height: 100px;
@@ -46,15 +39,13 @@ body{
 	padding: 10px;
 	align-items: center;
 }
-h3{
-	color: white;
-}
 .contenedor1{
 	background-color:  #82c3a6;
 	width: 100%;
 	display: -webkit-flex;
 	display: -ms-flexbox;
 	display: flex;
+	flex-direction: row; 
 	justify-content:center;
 }
 .contenedor2{
@@ -63,9 +54,9 @@ h3{
 	display: -webkit-flex;
 	display: -ms-flexbox;
 	display: flex;
-	flex-flow: row;
+	flex-direction: row;
 	justify-content:space-around;
-	align-items: center;
+	text-align: center;
 }
 .contenedor3{
 	background-color: #C6d5c5;
@@ -83,20 +74,20 @@ h3{
 #img0{
 	box-shadow: 2px 2px 2px #02010a;
 	margin: 15px;
-	width: 1000px;
+	width: 700px;
 	height: 400px;
 }
 #img1{
 	box-shadow: 2px 2px 2px #02010a;
 	margin: 15px;
-	width: 800px;
+	width: 600px;
 	height: 400px;
 }
 #img2{
 	box-shadow: 2px 2px 2px #02010a;
 	margin: 15px;
 	padding: 0;
-	width: 800px;
+	width: 600px;
 	height: 400px;
 }
 #der{
@@ -115,5 +106,29 @@ p{
 	font-size: 20px;
 	margin: 10px;
 }
+.Inicio a{
+	text-decoration: none;
+}
+.Inicio a{
+color: white
+}
+.Paisajes a{
+color: white
+}
+.Retratos a{
+color: white
+}
+.activo{
+text-decoration: none;
+}
 
+.Inicio{
+width: 80px;
+height: 100px;
+padding: 10px;
+align-items: center;
+}
 
+#img1:hover{
+	transform: rotate(10deg);
+}
