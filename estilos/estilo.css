@@ -95,12 +95,16 @@ h3{
 	width: 10%;
 }
 #contact{
-	width: 10%;
+	width: 15%;
 }
 #ter{
 	width: 20%;
 }
 #rs{
 	width: 20%;
+}
+p{
+	font-size: 20px;
+	margin: 10px;
 }
 
