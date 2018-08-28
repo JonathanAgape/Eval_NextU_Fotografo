@@ -131,4 +131,22 @@ align-items: center;
 
 #img1:hover{
 	transform: rotate(10deg);
+	box-shadow: 2px 2px 2px #82c3a6;
+	border: 2px;
+}
+#img2:hover{
+	transform: translate(20px, -5px);
+	box-shadow: 2px 2px 2px #82c3a6;
+	border: 2px;
+}
+.retra {
+	color: black;
+	font-size: 25px;
+	font-weight: bold;
+}
+.paisa{
+	color: black;
+	font-size: 25px;
+	font-weight: bold;
+
 }
