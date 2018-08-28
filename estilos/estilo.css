@@ -1,4 +1,45 @@
-#cabecera h1{
-	background-color: #5b7989
+*{
+	font-family: 'Dancing Script', cursive;
+}
+.contenedor{
+	background-color: #5b7989;
+	width: 100%;
+	height: 120px;
+	border-radius: 10px 10px 0 0;
+
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-start;
+	align-items: center;
+
+}
+#comenzando{
+	width: 80%;
+	height: 100px;
 	color: white;
-		}
+	text-shadow: 2px 2px 2px  #02010a;
+	padding-left: 20px;
+	
+}
+.Inicio{
+	width: 80px;
+	height: 100px;
+	padding-right: 0px;
+
+}
+.Paisajes{
+	width: 80px;
+	height: 100px;
+	padding: 10px;
+
+}
+.Retratos{
+	height: 100px;
+	padding: 10px;
+	
+}
+.contenedor div{
+	justify-content: flex-end;
+}
