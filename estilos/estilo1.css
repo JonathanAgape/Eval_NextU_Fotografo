@@ -11,6 +11,13 @@
 header{
 	animation: MiEvaluacion 2s;  
 }
+@media screen and (max-width: 899px){
+	.contenedor2{
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+	}
+}
 body{
 	width: 100%;
 	margin: 0;
