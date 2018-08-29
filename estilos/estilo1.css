@@ -39,24 +39,15 @@ body{
 	padding: 10px;
 	align-items: center;
 }
-.contenedor1{
-	background-color:  #82c3a6;
-	width: 100%;
-	display: -webkit-flex;
-	display: -ms-flexbox;
-	display: flex;
-	flex-direction: row; 
-	justify-content:center;
-}
 .contenedor2{
 	background-color:  #d5c75f;
 	width: 100%;
 	display: -webkit-flex;
 	display: -ms-flexbox;
 	display: flex;
-	flex-direction: row;
-	justify-content:space-around;
-	text-align: center;
+	flex-flow: row wrap;
+	justify-content: space-around;
+	align-items: flex-start;
 }
 .contenedor3{
 	background-color: #C6d5c5;
@@ -71,24 +62,49 @@ body{
 	align-items: flex-start;
 	padding: 15px 0px;
 }
-#img0{
-	box-shadow: 2px 2px 2px #02010a;
-	margin: 15px;
-	width: 700px;
-	height: 400px;
-}
 #img1{
 	box-shadow: 2px 2px 2px #02010a;
-	margin: 15px;
-	width: 600px;
+	margin: 25px;
+	width: 500px;
 	height: 400px;
+	-webkit-filter:blur(10px);
 }
 #img2{
 	box-shadow: 2px 2px 2px #02010a;
-	margin: 15px;
+	margin: 25px;
 	padding: 0;
-	width: 600px;
+	width: 500px;
 	height: 400px;
+	-webkit-filter:grayscale(100%);
+}
+#img3{
+	box-shadow: 2px 2px 2px #02010a;
+	margin: 25px;
+	width: 500px;
+	height: 400px;
+	-webkit-filter:sepia(90%);
+}
+#img4{
+	box-shadow: 2px 2px 2px #02010a;
+	margin: 25px;
+	padding: 0;
+	width: 500px;
+	height: 400px;
+	-webkit-filter:grayscale(100%);
+}
+#img5{
+	box-shadow: 2px 2px 2px #02010a;
+	margin: 25px;
+	width: 500px;
+	height: 400px;
+}
+#img6{
+	box-shadow: 2px 2px 2px #02010a;
+	margin: 25px;
+	padding: 0;
+	width: 500px;
+	height: 400px;
+	-webkit-filter:grayscale(100%);
 }
 #der{
 	width: 15%;
@@ -107,9 +123,6 @@ p{
 	margin: 10px;
 }
 .Inicio a{
-	text-decoration: none;
-}
-.Inicio a{
 color: white
 }
 .Paisajes a{
@@ -118,7 +131,7 @@ color: white
 .Retratos a{
 color: white
 }
-.activo{
+.activo1{
 text-decoration: none;
 }
 .Inicio{
@@ -128,13 +141,11 @@ padding: 10px;
 align-items: center;
 }
 
-#img1:hover{
-	transform: rotate(10deg);
+#img1{
 	box-shadow: 2px 2px 2px #82c3a6;
 	border: 2px;
 }
-#img2:hover{
-	transform: translate(20px, -5px);
+#img2{
 	box-shadow: 2px 2px 2px #82c3a6;
 	border: 2px;
 }
@@ -147,5 +158,4 @@ align-items: center;
 	color: black;
 	font-size: 25px;
 	font-weight: bold;
-
 }
