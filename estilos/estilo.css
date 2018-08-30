@@ -15,7 +15,7 @@
 header{
 	animation: MiEvaluacion 2s;  
 }
-@media screen and (max-width: 899px){
+@media (max-width: 899px){
 	.contenedor2{
 		width: 100%;
 		display: flex;

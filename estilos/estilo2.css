@@ -1,6 +1,11 @@
 *{
 	font-family: 'Dancing Script', cursive;
 }
+#contenido{
+	background-color: black;
+	max-width: 900px;
+	margin:0 auto;
+}
 @-webkit-keyframes MiEvaluacion{
 		0%{margin-top: 150%}
 		
@@ -11,7 +16,7 @@
 header{
 	animation: MiEvaluacion 2s;  
 }
-@media screen and (max-width: 899px){
+@media (max-width: 899px){
 	.contenedor2{
 		display: flex;
 		flex-direction: column;
@@ -22,6 +27,7 @@ body{
 	width: 100%;
 	margin: 0;
 	padding: 0;
+	background-color: black;
 }
 .contenedor{
 	background-color: #5b7989;
