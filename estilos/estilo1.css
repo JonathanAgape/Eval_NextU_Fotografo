@@ -107,6 +107,7 @@ header{
 }
 #titulo{
 	color: white;
+	text-shadow: 2px 2px 2px black;
 	text-align: left;
 	padding-left: 25px;
 	width: 575px;
@@ -118,14 +119,14 @@ header{
 }
 .contenedor2{
 	background-color:  #d5c75f;
-	width: 100%;
-	display: -webkit-flex;
 	display: -ms-flexbox;
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	align-items: center;
-	justify-content: center;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: flex-end;
+    align-items: flex-start;
 	
 }
 .contenedor3{
@@ -144,7 +145,7 @@ header{
 	box-shadow: 2px 2px 2px #02010a;
 	margin: 15px;
 	width: 400px;
-	height: 400px;
+	height: auto;
 	-webkit-filter:blur(10px);
 }
 #img2{
@@ -152,14 +153,14 @@ header{
 	margin: 15px;
 	padding: 0;
 	width: 400px;
-	height: 400px;
+	height: auto;
 	-webkit-filter:grayscale(100%);
 }
 #img3{
 	box-shadow: 2px 2px 2px #02010a;
 	margin: 15px;
 	width: 400px;
-	height: 400px;
+	height: auto;
 	-webkit-filter:sepia(90%);
 }
 #img4{
@@ -167,21 +168,21 @@ header{
 	margin: 15px;
 	padding: 0;
 	width: 400px;
-	height: 400px;
+	height: auto;
 	-webkit-filter:grayscale(100%);
 }
 #img5{
 	box-shadow: 2px 2px 2px #02010a;
 	margin: 15px;
 	width: 400px;
-	height: 400px;
+	height: auto;
 }
 #img6{
 	box-shadow: 2px 2px 2px #02010a;
 	margin: 15px;
 	padding: 0;
 	width: 400px;
-	height: 400px;
+	height: auto;
 	-webkit-filter:grayscale(100%);
 }
 
