@@ -16,51 +16,105 @@
 header{
 	animation: MiEvaluacion 2s;  
 }
-@media (max-width: 899px){
-	.contenedor2{
+@-webkit-keyframes MiEvaluacion{
+		0%{margin-top: 150%}
+		
+		60%{margin-top: -5%}
+
+		100%{margin-top: 0%}
+	}
+header{
+	animation: MiEvaluacion 2s;  
+}
+
+@media screen and (max-width: 900px){
+
+	#contenido{
+		width: 100%;
+	}
+	header{
+		height: 150px;
+		width: 900px;
 		display: flex;
 		flex-direction: column;
-		flex-wrap: wrap;
-	}
+		justify-content: center;
+		align-items: center;
 }
+#titulo{
+	margin-bottom: 40px;
+	height: 30px;
+	font-size: 25px;
+}
+
+	.contenedor2{
+		width: 100%;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		flex-flow: row wrap;
+		align-items: center;
+		justify-content: center;
+	}
+	.contenedor3{
+		width: 100%;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
+		flex-flow: row wrap;
+		text-align: center;
+		justify-content: center;
+}	
+#contact{
+	text-align: center;
+	width: 100%;
+}
+#ter{
+	text-align: center;
+	width: 100%;
+}
+#der{
+	text-align: center;
+	width: 100%;
+}
+#rs{
+	text-align: center;
+	width: 100%;
+}
+}
+/*Cuerpo de mi trabajo*/
+
 body{
 	width: 100%;
-	margin: 0;
-	padding: 0;
 	background-color: black;
 }
-.contenedor{
+.item{
+	color: white;
+}
+#menu a {
+	float: left;
+	padding-left: 30px;
+}
+
+header{
 	background-color: #5b7989;
 	width: 100%;
-	height: 100px;
+	height: 100%;
 	border-radius: 10px 10px 0 0;
-
 	display: -webkit-flex;
 	display: -ms-flexbox;
 	display: flex;
-	flex-flow: row;
-	justify-content:space-around;
-	align-content: center;
+	flex-flow: row wrap;
 }
-#comenzando{
-	width: 80%;
-	height: 100px;
+#titulo{
 	color: white;
-	text-shadow: 2px 2px 2px  #02010a;
-	padding-left: 20px;
-	
-}
-.Paisajes{
-	width: 80px;
-	height: 100px;
-	padding: 10px;
-	align-items: center;
-}
-.Retratos{
-	width: 80px;
-	height: 100px;
-	padding: 10px;
-	align-items: center;
+	text-align: left;
+	padding-left: 25px;
+	width: 575px;
+	}
+#menu{
+	width: 300px;
+	padding-top: 20px;
+
 }
 .contenedor2{
 	background-color:  #d5c75f;
@@ -68,27 +122,28 @@ body{
 	display: -webkit-flex;
 	display: -ms-flexbox;
 	display: flex;
-	flex-flow: row wrap;
-	justify-content: space-around;
-	align-items: flex-start;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: space-around;
+	justify-content: center;
+	
 }
 .contenedor3{
 	background-color: #C6d5c5;
-
+	width: 100%;
 	height: 100%;
 	border-radius: 0 0 10px 10px;
 	display: -webkit-flex;
 	display: -ms-flexbox;
 	display: flex;
-	flex-flow: row;
-	justify-content:space-around;
-	align-items: flex-start;
-	padding: 15px 0px;
+	flex-direction: row;
+	align-items: space-around;
+	justify-content: center;
 }
 #img1{
 	box-shadow: 2px 2px 2px #02010a;
 	margin: 25px;
-	width: 500px;
+	width: 400px;
 	height: 400px;
 	-webkit-filter:blur(10px);
 }
@@ -96,14 +151,14 @@ body{
 	box-shadow: 2px 2px 2px #02010a;
 	margin: 25px;
 	padding: 0;
-	width: 500px;
+	width: 400px;
 	height: 400px;
 	-webkit-filter:grayscale(100%);
 }
 #img3{
 	box-shadow: 2px 2px 2px #02010a;
 	margin: 25px;
-	width: 500px;
+	width: 400px;
 	height: 400px;
 	-webkit-filter:sepia(90%);
 }
@@ -111,74 +166,27 @@ body{
 	box-shadow: 2px 2px 2px #02010a;
 	margin: 25px;
 	padding: 0;
-	width: 500px;
+	width: 400px;
 	height: 400px;
 	-webkit-filter:grayscale(100%);
 }
 #img5{
 	box-shadow: 2px 2px 2px #02010a;
 	margin: 25px;
-	width: 500px;
+	width: 400px;
 	height: 400px;
 }
 #img6{
 	box-shadow: 2px 2px 2px #02010a;
 	margin: 25px;
 	padding: 0;
-	width: 500px;
+	width: 400px;
 	height: 400px;
 	-webkit-filter:grayscale(100%);
 }
-#der{
-	width: 15%;
-}
-#contact{
-	width: 15%;
-}
-#ter{
-	width: 20%;
-}
-#rs{
-	width: 20%;
-}
+
 p{
 	font-size: 20px;
 	margin: 10px;
 }
-.Inicio a{
-color: white
-}
-.Paisajes a{
-color: white
-}
-.Retratos a{
-color: white;
-}
-.activo1{
-text-decoration: none;
-}
-.Inicio{
-width: 80px;
-height: 100px;
-padding: 10px;
-align-items: center;
-}
 
-#img1{
-	box-shadow: 2px 2px 2px #82c3a6;
-	border: 2px;
-}
-#img2{
-	box-shadow: 2px 2px 2px #82c3a6;
-	border: 2px;
-}
-.retra {
-	color: black;
-	font-size: 25px;
-	font-weight: bold;
-}
-.paisa{
-	color: black;
-	font-size: 25px;
-	font-weight: bold;
-}
